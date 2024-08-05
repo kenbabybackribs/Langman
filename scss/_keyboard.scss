@@ -1,0 +1,25 @@
+@use './variables' as var;
+
+
+.keyboard {
+    display: flex;
+    gap: .5rem;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    & button {
+        padding: 1.8rem 2.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: calc(100% / 9 - 5px);
+    
+
+        &:disabled {
+            opacity: 0.35;
+            pointer-events: none;
+        }
+        
+    }
+}

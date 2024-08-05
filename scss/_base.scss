@@ -1,0 +1,68 @@
+@use "./variables" as var;
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: inherit;
+
+  @media only screen and (max-width: 560px) {
+    font-size: 60%;
+  }
+
+  @media only screen and (max-width: 450px) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: 'Baloo 2', cursive;
+  background: url("../src/img/fotor-ai-2024080417146-ezgif.com-video-to-gif-converter.gif") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  overflow: hidden;
+
+  @media only screen and (max-width: 560px) {
+    padding: 0;
+  }
+}
+
+.container {
+  width: 85rem;
+  background: linear-gradient(60deg, rgba(#fff, .95) 5%, rgba(#fff, 0));
+  display: flex;
+  padding: 6rem 4rem;
+  gap: 7rem;
+  align-items: flex-end;
+  border-radius: 1.8rem;
+  animation: float infinite 5s ease-in-out;
+
+  @media only screen and (max-width: 782px) {
+    flex-direction: column;
+    padding: 3rem 15rem;
+    align-items: center;
+    animation: none;
+  }
+
+  @media only screen and (max-width: 560px) {
+    width: 100vw; 
+    height: 100vh;
+    background: #fff;
+    border-radius: 0;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
