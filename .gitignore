@@ -1,4 +1,7 @@
 .DS_STORE
 .parcel-cache
 node_modules
+<<<<<<< HEAD
 .gitignore
+=======
+>>>>>>> 296e47dd92c6d272c6766cfc115e87278845198f
