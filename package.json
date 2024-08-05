@@ -2,8 +2,7 @@
   "name": "hangman",
   "version": "1.0.0",
   "description": "Word-guessing game where players try to deduce a hidden word by guessing letters within a limited number of attempts",
-  "default": "index.js",
-  "main": "index.js",
+  "default": "./src/main.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
