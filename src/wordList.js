@@ -1,4 +1,4 @@
-export default wordList = [
+const wordList = [
   { word: "HTML", hint: "Markup language for web pages" },
   { word: "CSS", hint: "Stylesheets for web design" },
   { word: "JavaScript", hint: "Popular web scripting language" },
@@ -55,3 +55,5 @@ export default wordList = [
   { word: "Scratch", hint: "Visual programming language for beginners" },
   { word: "Dart", hint: "Language optimized for UI" },
 ];
+
+export default wordList
