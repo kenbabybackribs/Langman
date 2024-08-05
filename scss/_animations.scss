@@ -1,0 +1,35 @@
+@keyframes float {
+    50% { transform: translateY(4.5px) }
+}
+
+
+@keyframes swing {
+    0% {
+      transform: rotate(-8deg);
+    }
+    50% {
+      transform: rotate(8deg);
+    }
+    100% {
+      transform: rotate(0deg); 
+    }
+  }
+  
+  
+  .hangman--swing {
+    animation: swing 1s ease-out; 
+  }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+  
+  
