@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/42b3529e-d7d6-47fb-aa3b-02444bc064fb" width="100%">
+<img src="https://github.com/user-attachments/assets/0d40fd5b-efbc-4b09-b99a-1a8c40bb4478" width="100%">
 
 # LangMan
 
