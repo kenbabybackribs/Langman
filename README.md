@@ -38,7 +38,7 @@ To set up LangMan on your local machine, follow these steps:
 
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/langman.git
+   git clone https://github.com/kenbabybackribs/langman.git
    cd Mapty
    sudo npm install
 
