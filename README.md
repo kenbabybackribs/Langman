@@ -13,15 +13,6 @@ This is an engaging variation of the classic Hangman game tailored for developer
 
 <br>
 
-## Demo
-
-Check out a demonstration of the app in action:
-<p align="center">
-   <img align="center" src="https://github.com/user-attachments/assets/cfa2464b-d9ab-4e62-93c1-2cad65dc0390" width="680" alt="langman">
-</p>
-
-<br>
-
 
 ## Live Site
 
